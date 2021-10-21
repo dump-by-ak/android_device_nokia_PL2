@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PATH := device/nokia/PL2
+DEVICE_PATH := device/nokia/B2N
 
 # Set Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.PL2.target.rc
+    init.B2N.target.rc
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/nokia/PL2/PL2-vendor.mk)
+$(call inherit-product, vendor/nokia/B2N/B2N-vendor.mk)

@@ -1,7 +1,7 @@
 on boot
     # Fingerprint
-    chown system system /dev/elan_fp
-    chmod 0644 /dev/elan_fp
+    chown system system /dev/goodix_fp
+    chmod 0644 /dev/goodix_fp
 
 on post-fs-data
     # NFC storage

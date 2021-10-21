@@ -9,7 +9,7 @@ persist.capture.burst.exposures=0,-9,9
 qemu.sf.lcd_density=420
 
 # Fingerprint
-ro.hardware.fingerprint=elan
+ro.hardware.fingerprint=gxfp3208_b2n
 
 # Radio
 ro.rf.power.reduction.for.mcc=1

@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=PL2
+export DEVICE=B2N
 export DEVICE_COMMON=sdm660-common
 export VENDOR=nokia
 
